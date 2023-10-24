@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/Convers%C3%A3o+1.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Conversor de Monedas</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="page-title">
+            Conversor de monedas
+        </h1>
+        <img src="https://user-images.githubusercontent.com/121910576/257302088-d2a9edb6-75e5-4118-aaba-6f53da7715dc.png"
+            class="page-logo" alt="">
+    </div>
+        <img src="https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/Convers%C3%A3o+1.png">
+    <section class="form">
+        <div class="ingresoMoneda">
+            <label for="cantidad">Ingrese cantidad y moneda:</label>
+            <input type="number" name="cantidad" id="cantidad" >
+            <!-- <input list="monedas" id="monedaOrigen" placeholder="moneda origen">
+            <datalist id="monedas">
+                <option value="USD">Dolar</option>
+                <option value="EUR">Euro</option>
+                <option value="ARS">Peso Argentino</option>
+            </datalist> -->
+            <select name="Monedas" id="monedaOrigen">
+                <option value="USD">Dolar</option>
+                <option value="EUR">Euro</option>
+                <option value="ARS">Peso Argentino</option>
+            </select>
+
+
+            <button onclick="mostrarValor()">Convertir</button>
+        </div>
+        <div class="">
+            <label for="resultado">equivale a:</label>
+            <input type="text" name="resultado" id="resultado">
+            <input list="monedas" id="monedaDestino" placeholder="moneda destino">
+        </div>
+    </section>
+    <script src="./main.js"></script>
+</body>
+
+</html>
