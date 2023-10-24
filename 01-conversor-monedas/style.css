@@ -44,29 +44,33 @@ img {
 }
 
 .form {
-    background-color: tomato;
     padding: 20px;
     display: flex;
-    gap: 50px;
+    gap: 30px;
+    color: #ffffff;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
-.form input{
+.form input, select{
     padding: 0.5rem;
     border:transparent;
     border-radius: 1rem;
+    text-align: center;
 }
-.form button{
-    border: 0;
+.btn{
+    border: transparent;
     padding: 0.8rem;
     border-radius: 1rem;
-    background-color: antiquewhite;
+    background-color: rgb(247, 207, 153);
     cursor: pointer;
 }
-.form button:active{
+.btn:hover{
+    opacity: 0.95;
+}
+.btn:active{
     background-color: teal;
 }
 .ingresoMoneda input{
-    background-color: yellowgreen;
     margin: 10px 0px;
 }
