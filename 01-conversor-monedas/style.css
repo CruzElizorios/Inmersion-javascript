@@ -46,7 +46,7 @@ img {
 .form {
     padding: 20px;
     display: flex;
-    gap: 30px;
+    gap: 10px;
     color: #ffffff;
     flex-direction: column;
     align-items: center;
@@ -73,4 +73,21 @@ img {
 }
 .ingresoMoneda input{
     margin: 10px 0px;
+    width: 150px;
+}
+.acciones{
+    padding: 1rem;
+}
+.btnLink{
+    border: transparent;
+    text-decoration: none;
+    padding: 0.4rem 0.6rem;
+    border-radius: 1rem;
+    color: black;
+    background-color: rgb(153, 247, 206);
+    cursor: pointer;
+    margin: 100px;
+}
+.btnLink:hover{
+    background-color: yellow;
 }

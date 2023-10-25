@@ -40,7 +40,7 @@ const mostrarValor = () => {
             valor = valorAconvertir.value / cotizacionUSDEUR
             return mostrarValorFinal.value = "$ " + valor.toFixed(2);
         default:
-            return mostrarValorFinal.value = "La moneda no ha sido agregada"
+            return mostrarValorFinal.value = "No se puede convertir"
     }
     // console.log(monedaOrigen.value)
     // let valor = valorAconvertir.value * cotizacionUsdArs

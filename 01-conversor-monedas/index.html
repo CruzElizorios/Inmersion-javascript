@@ -23,33 +23,28 @@
         <div class="ingresoMoneda">
             <label for="cantidad">Ingrese cantidad:</label>
             <input type="number" name="cantidad" id="cantidad">
-            <!-- <input list="monedas" id="monedaOrigen" placeholder="moneda origen">
-            <datalist id="monedas">
-                <option value="USD">Dolar</option>
-                <option value="EUR">Euro</option>
-                <option value="ARS">Peso Argentino</option>
-            </datalist> -->
             <select name="Monedas" id="monedaOrigen">
                 <option value="USD">Dolar</option>
                 <option value="EUR">Euro</option>
                 <option value="ARS">Peso Argentino</option>
             </select>
         </div>
-        <div>
+        <div class="acciones">
             <button class="btn" onclick="mostrarValor()">Convertir</button>
             <button class="btn" onclick="intercambiar()">Intercambiar Monedas</button>
         </div>
         <div class="">
             <label for="resultado">equivale a:</label>
             <input type="text" name="resultado" id="resultado">
-            <!-- <input list="monedas" id="monedaDestino" placeholder="moneda destino"> -->
             <select name="Monedas" id="monedaDestino">
                 <option value="ARS">Peso Argentino</option>
                 <option value="USD">Dolar</option>
                 <option value="EUR">Euro</option>
             </select>
         </div>
+        <a class="btnLink" href="./conversorTemp.html">Conversor de Temperaturas</a>
     </section>
+
     <script src="./main.js"></script>
 </body>
 

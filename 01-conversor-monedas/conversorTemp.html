@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon"
+    href="https://cdn-icons-png.flaticon.com/512/427/427237.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Conversor de temperaturas</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="page-title">
+            Conversor de Temperaturas
+        </h1>
+        <img src="https://user-images.githubusercontent.com/121910576/257302088-d2a9edb6-75e5-4118-aaba-6f53da7715dc.png"
+            class="page-logo" alt="">
+            
+    </div>
+    <img src="https://cdn-icons-png.flaticon.com/512/566/566522.png">
+    <section class="form">
+        <div class="ingresoMoneda">
+            <label for="grados">Ingrese los Grados:</label>
+            <input type="number" name="grados" id="grados">
+            <select name="EscalaTemp" id="EscalaTempOrigen">
+                <option value="C">°C Celcius</option>
+                <option value="F">°F Farenheit</option>
+                <option value="K">K Kelvin</option>
+            </select>
+        </div>
+        <div class="acciones">
+            <button class="btn" onclick="mostrarValor()">Convertir</button>
+            <button class="btn" onclick="intercambiar()">Intercambiar Temperatura</button>
+        </div>
+        <div class="">
+            <label for="resultado">equivale a:</label>
+            <input type="text" name="resultado" id="resultado">
+            <select name="Monedas" id="EscalaTempDest">
+                <option value="F">°F Farenheit</option>
+                <option value="C">°C Celcius</option>
+                <option value="K">K Kelvin</option>
+            </select>
+        </div>
+        <a class="btnLink" href="./index.html">Conversor de Monedas</a>
+    </section>
+    
+
+    <script src="./temperaturas.js"></script>
+</body>
+</html>
