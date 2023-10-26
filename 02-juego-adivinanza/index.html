@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/287/287198.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Juego Adivinanza</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="page-title">
+            Juego de la Adivinanza
+        </h1>
+        <img src="https://user-images.githubusercontent.com/121910576/257302088-d2a9edb6-75e5-4118-aaba-6f53da7715dc.png"
+            class="page-logo" alt="">
+    </div>
+    <div>
+        <img src="https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/Ilustra%C3%A7%C3%A3o-c%C3%A9rebro+1.png">
+    </div>
+    <div>
+        <label for="IngresoNum">Ingrese un número entre 1 y 10:</label>
+        <input type="number"  id="IngresoNum">
+        <button class="btn" onclick="adivinanza()">Descubir</button>
+    </div>
+    <input class="valorResultado" id="resultado" disabled>
+    <script src="./main.js"></script>
+</body>
+
+</html>
