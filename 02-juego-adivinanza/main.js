@@ -3,7 +3,10 @@ let resultado = document.getElementById("resultado");
 
 
 function generarNumRandon() {
-    let numRandon =  Math.round(Math.random()*10)
+    let numRandon =  Math.round(Math.random()*10 + 1);
+    if (numRandon == 11) {
+        numRandon -=1;
+    }
     return numRandon
 }
 
