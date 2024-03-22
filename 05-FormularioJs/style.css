@@ -1,0 +1,45 @@
+body{
+    background-color:rgb(136, 154, 173);
+}
+form{
+    display: flex;
+    margin: 30% 0;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+ 
+
+}
+.form-group {
+    margin-bottom: 15px;
+  
+    width: 200px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
